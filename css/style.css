@@ -433,3 +433,22 @@ h1.big_header {
     background-image: -ms-repeating-linear-gradient(bottom right, rgb(102, 27, 150) 0%, rgb(250, 1, 143) 100%);
 }   background-image: -ms-repeating-linear-gradient(bottom right, rgb(102, 27, 150) 0%, rgb(250, 1, 143) 100%);
 }
+
+
+/*Мобильная версия*/
+
+.smal_screen {
+        display: none;
+    }
+/* показываем блок для мобильной верстки*/
+@media screen and (device-width: 576px) {
+    
+    .xl_screen {
+        display: none;
+    }
+
+    .smal_screen {
+        display: block;
+    }
+   
+   }

@@ -11,7 +11,7 @@
     </head>
     <body>
 <div class="smal_screen">
-    
+    <h1>Мобильная верстка</h1>
 </div>
 <div class="xl_screen">
         <div id="float_1">
