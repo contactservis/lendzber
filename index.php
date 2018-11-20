@@ -10,6 +10,10 @@
         <script src="js/jquery-3.3.1.min.js"></script>        
     </head>
     <body>
+<div class="smal_screen">
+    
+</div>
+<div class="xl_screen">
         <div id="float_1">
             <img id="box_f1_01" src="img/box_01.png" class="fly_box"/>
             <img id="box_f1_02" src="img/box_01.png" class="fly_box"/>
@@ -177,6 +181,7 @@
             <img id="box_f4_11" src="img/one_box.png" class="fly_box"/>
             <img id="box_f4_12" src="img/one_box.png" class="fly_box"/>
         </div>
+</div>
         <div id="popup_fade" class="gradient"> 
             <div class="popup_content">   
                 <div id="popup_close">х</div>
