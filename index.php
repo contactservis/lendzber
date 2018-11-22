@@ -48,6 +48,9 @@
                 а инвесторы сами решают, куда вложить деньги и на каких условиях.</p>
         </div>
         <div class="clear"></div>
+        <div class="left_block">
+            <img src="img/graf.png" class="rectangle"/>
+        </div>
         <div class="right_block">
             <div class="block_punkt">
                 первый сервис массового финансирования, в основе которого лежит классический механизм привлечения
@@ -65,9 +68,7 @@
             <a href="https://nfksber.ru/company/" style="color: #ff0091; text-decoration: none;" target="_blank">Подробнее
                 об АО «НФК-Сбережения»</a>
         </div>
-        <div class="left_block">
-            <img src="img/graf.png" style="position: absolute; left: -174px;"/>
-        </div>
+
         <div class="clear"></div>
     </div>
     <div class="clear"></div>
@@ -160,8 +161,9 @@
     <div id="footer">
         <div class="container">
             <div class="slogan_logo">
-                <h1>Включайтесь в проект уже сегодня!</h1>
                 <img src="img/logo.png" style="padding-top: 10px;"/>
+                <h1>Включайтесь в проект уже сегодня!</h1>
+
             </div>
             <div class="clear"></div>
             <div class="footer_button">
@@ -190,7 +192,6 @@
     <img id="box_f4_10" src="img/one_box.png" class="fly_box"/>
     <img id="box_f4_11" src="img/one_box.png" class="fly_box"/>
     <img id="box_f4_12" src="img/one_box.png" class="fly_box"/>
-</div>
 </div>
 <div id="popup_fade" class="gradient">
     <div class="popup_content">
