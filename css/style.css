@@ -185,6 +185,11 @@ h1.big_header {
     float: right;
 }
 
+.rectangle{
+    position: absolute;
+    left: -174px;
+}
+
 .block_punkt {
     border-left: solid 1px #ff0091;
     padding-left: 30px;
@@ -294,6 +299,9 @@ h1.big_header {
     float: left;
     width: 555px;
     margin-right: 10px;
+}
+#screen_slider .screen_slider_box_item .block_punkt{
+    border-color: #ffffff;
 }
 
 
@@ -431,10 +439,11 @@ h1.big_header {
     /* IE10+ */
     background-image: repeating-linear-gradient(to top left, rgb(102, 27, 150) 0%, rgb(250, 1, 143) 100%);
     background-image: -ms-repeating-linear-gradient(bottom right, rgb(102, 27, 150) 0%, rgb(250, 1, 143) 100%);
-}   background-image: -ms-repeating-linear-gradient(bottom right, rgb(102, 27, 150) 0%, rgb(250, 1, 143) 100%);
+    background-image: -ms-repeating-linear-gradient(bottom right, rgb(102, 27, 150) 0%, rgb(250, 1, 143) 100%);
 }
 
 .smal_screen {
+<<<<<<< HEAD
         display: none;
     }
 
@@ -459,12 +468,202 @@ h1.big_header {
     
     .xl_screen {
         display: none;
+=======
+    display: none;
+}
+/* показываем блок для мобильной верстки*/
+@media screen and (max-width: 576px) {
+    body{
+        margin: 0;
+        overflow: hidden;
+>>>>>>> 9af315478a0e90fa4b2dc0fd17f7a077964aae75
     }
-
-    .smal_screen {
-        display: block;
+    h1{
+        text-align: left!important;
+        font-size: 28px;
+    }h2{
+         text-align: left!important;
+     }
+    .button{
+        width: 290px;
     }
+    .button:hover {
+        background: url(img/button_fon.jpg) no-repeat -370px 0px;
+        background-size: 230%;
+        background-position: -370px 0;
+    }
+    #float_3 {
+        position: relative;
+        width: calc(100% - 30px);
+        padding: 0 15px;
+    }
+    #float_3 .container {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        left: 0;
+    }
+    #float_3 .header{
+        padding-bottom: 20px;
+    }
+    #float_3 .header img {
+        margin-right: 0;
+        float: none;
+        max-width: 100%;
+    }
+    #float_3 .header a.button {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+    #float_3 .block_punkt{
+        padding-left: 15px;
+    }
+    #float_3 .block_01 h1 {
+        font-size: 28px;
+    }
+    h1.big_header {
+        font-size: 0;
+    }
+    #float_3 .block_01 .left_block{
+        margin-bottom: -55px!important;
+    }
+    #float_3 .block_01 img {
+        width: 150%;
+        position: relative;
+        left: -30%;
+    }
+    .left_block {
+        width: 100%;
+        padding: 0;
+        float: none;
+        text-align: left;
+        font-size: 14px;
+    }
+    .rectangle{
+        width: 160%!important;
+        left: -25%!important;
+    }
+    .right_block {
+        width: 100%;
+        padding: 0;
+        float: none;
+        font-size: 14px;
+        text-align: left;
+    }
+    .investor{
+        width: 100%;
+        left: -15px;
+        padding: 15px;
+        background-position: center bottom;
+    }
+    .investor>.container>.right_block{
+        margin-top: -50px;
+    }
+    .investor>.container>.left_block{
+        margin-top: 20px!important;
+        overflow: hidden;
+    }
+    .investor img#planschet {
+        position: relative;
+        left: -46px;
+        width: 140%;
+    }
+    .investor h1 {
+        max-width: 90vw;
+    }
+    .investor .block_punkt{
+        width: 75vw;
+    }
+    .investor .screen_slider_box_item p{
+        width: 90vw;
+    }
+    #screen_slider{
+        height: unset;
+    }
+    #screen_slider .screen_slider_box_item .block_punkt {
+        padding-left: 32px;
+    }
+    .list_why .list_why_item span {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+    #podpiska {
+        position: relative;
+        width: calc(100% + 30px);
+        left: -15px;
+        height: auto;
+        background: #af1fa6;
+        margin: auto;
+        padding: 5px 0 0;
+    }
+    #podpiska #input_email {
+        width: 290px;
+        float: none;
+        margin-right: 0;
+        display: inline-block;
+        margin-bottom: 23px;
+    }
+    #podpiska #input_email #form_input_email {
+        height: 40px;
+        font-size: 1rem;
+    }
+    #podpiska #send_email {
+        margin-bottom: 23px;
+    }
+    .list_why .list_why_item {
+        padding-left: 32px;
+    }
+    #footer{
+        position: relative;
+        width: 100%;
+        left: -15px;
+        padding: 15px;
+        height: unset;
+    }
+    .slogan_logo {
+        padding-top: 20px;
+    }
+    .slogan_logo>img {
+        margin-bottom: 40px;
+        max-width: 100%;
+    }
+    #footer .slogan_logo h1 {
+        width: unset;
+    }
+    #footer .footer_button span{
+        border-left: 1px solid #ff0091;
+        margin-right: 0!important;
+        display: inline-block;
+        text-align: left;
+        padding-left: 32px;
+        margin-bottom: 40px;
+        line-height: 2;
+        font-size: 14px;
+        float: left;
+    }
+    #footer .footer_button .button {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .popup_content {
+        width: unset;
+        height: unset;
+        top: 0;
+        padding: 15px;
+        font-size: 14px;
+    }
+    #popup_close {
+        top: -13px;
+        right: -13px;
+    }
+    #float_1, #float_2, #float_4 {
+        display: none;
+    }
+<<<<<<< HEAD
 
     
    
    }
+=======
+}
+>>>>>>> 9af315478a0e90fa4b2dc0fd17f7a077964aae75
