@@ -152,7 +152,7 @@
         <div id="podpiska">
             <h2 style="margin-left: 20px;">Подпишитесь на нашу рассылку</h2>
             <div id="input_email">
-                <input id="form_input_email" type="text" placeholder="ваш email">
+                <input id="form_input_email" type="text" placeholder="ваш E-mail">
             </div>
             <a href="Javascript:void(0)" class="button" id="send_email">Подписаться</a>
         </div>
