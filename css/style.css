@@ -434,14 +434,28 @@ h1.big_header {
 }   background-image: -ms-repeating-linear-gradient(bottom right, rgb(102, 27, 150) 0%, rgb(250, 1, 143) 100%);
 }
 
-
-/*Мобильная версия*/
-
 .smal_screen {
         display: none;
     }
+
+
+@media screen and (min-width: 578px) and (max-width: 992px) {
+    
+
+    #float_3 .container {
+        width: 767px;
+        left: 50%;
+        margin-left: -55px;
+        position: relative;
+    }
+}
+
+/*Мобильная версия*/
+
+
+
 /* показываем блок для мобильной верстки*/
-@media screen and (device-width: 576px) {
+@media screen and (min-width: 320px) and (max-width: 576px) {
     
     .xl_screen {
         display: none;
@@ -450,5 +464,7 @@ h1.big_header {
     .smal_screen {
         display: block;
     }
+
+    
    
    }
