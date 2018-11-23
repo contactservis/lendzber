@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title></title>
+    <title>Поиск Инвестора онлайн на Zберополис</title>
+    <meta name="description" content="Онлайн площадка для привлечения инвестиций в малый и средний бизнес" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="yandex-verification" content="deaf4152c27e6cbd"/>
